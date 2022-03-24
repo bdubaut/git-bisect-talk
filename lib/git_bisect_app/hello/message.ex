@@ -9,6 +9,7 @@ defmodule GitBisectApp.Hello.Message do
     @message
   end
 
+  @spec good_bye() :: binary()
   def good_bye() do
     @good_bye
   end
